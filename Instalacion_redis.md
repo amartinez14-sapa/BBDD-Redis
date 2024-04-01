@@ -3,8 +3,8 @@
 ## Índex
 
 1. [Requisits](#requisits)
-2. [Instal·lació](#Instal·lació)
-3. [Securització de la Instal·lació](#Securització-de-la-Instal·lació)
+2. [Instal·lació](#instal·lació)
+3. [Securització de la Instal·lació](#securització-de-la-Instal·lació)
 4. [Gestió del Servei](#gestió-del-servei)
 5. [Configuració i Localització d'Arxius](#configuració-i-localització-d'arxius)
 6. [Canvi de Port](#canvi-de-port)
