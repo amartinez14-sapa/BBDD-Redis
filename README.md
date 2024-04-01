@@ -1,4 +1,5 @@
 # Redis: Base de dades en memòria
+![Descripción de la imagen](Z:\ASIX\ASIX BASE DE DADAS\redis318x260_1.png)
 
 ## Índice
 1. [Història](#història)
