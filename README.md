@@ -8,7 +8,7 @@
     - [Casos de Uso Recomendados](#casos-de-uso-recomendados)
     - [Versiones de la Solución](#versiones-de-la-solución)
     - [Comparación con Otros SGBD](#comparación-con-otros-sgbd)
-4. [Documentación de Instalación](#documentación-de-instalación)
+4. [Documentación de Instalación](Instalacion_redis.md)
     - [Requisitos](#requisitos)
     - [Securización de la Instalación](#securización-de-la-instalación)
     - [Instrucciones de Arranque, Verificación de Estado y Apagado del Servicio](#instrucciones-de-arranque-verificación-de-estado-y-apagado-del-servicio)
