@@ -13,7 +13,7 @@
 6. [Instalació de la Base de Dades REDIS](Instalacion_redis.md)
 
 # Descripció de Redis
-Redis és una base de dades NoSQL, cosa que significa que no segueix el model relacional típic de les bases de dades SQL tradicionals. En lloc d'això, Redis es basa en un model de dades de clau-valor, semblant a com funcionen els objectes JSON. Cada entrada a Redis s'emmagatzema amb una clau única associada a un valor. Aquesta estructura de dades simple i flexible permet un accés ràpid i eficient a les dades.
+Redis és una base de dades NoSQL, per tant no segueix el model relacional típic de les bases de dades. En lloc d'això, Redis es basa en un model de dades de clau-valor, semblant a com funcionen els objectes JSON. Cada entrada a Redis s'emmagatzema amb una clau única associada a un valor. Aquesta estructura de dades simple i flexible permet un accés ràpid i eficient a les dades.
 
 Aquest enfocament de clau-valor permet un ràpid accés a les dades, especialment útil per a casos dús que requereixen alta velocitat i baixa latència, com emmagatzematge en memòria cau, sessions dusuari, sistemes de missatgeria en temps real, entre altres.
 
