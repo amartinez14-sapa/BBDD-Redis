@@ -3,14 +3,16 @@
 <img src="Redis2.png" alt="" width="1200">
 
 
-## Índice
-1. [Història](#història)
-2. [Suport](#suport)
-3. [Casos d'ús](#casos-dús)
-4. [Diferents versions de la Base de Dades REDIS](#diferents-versions-de-la-base-de-dades-redis)
-5. [Instalacio de la Base De Dades REDIS](Instalacion_redis.md)
+## Índex
 
-## Descripcio Base de Dades
+1. [Descripció de Redis](#descripció-de-redis)
+2. [Història](#història)
+3. [Suport](#suport)
+4. [Casos d'ús](#casos-dús)
+5. [Diferents versions de la Base de Dades REDIS](#diferents-versions-de-la-base-de-dades-redis)
+6. [Instalació de la Base de Dades REDIS](Instalacion_redis.md)
+
+## Descripcio de REDIS.
 Redis és una base de dades NoSQL, cosa que significa que no segueix el model relacional típic de les bases de dades SQL tradicionals. En lloc d'això, Redis es basa en un model de dades de clau-valor, semblant a com funcionen els objectes JSON. Aquesta estructura de dades simple i flexible permet un accés ràpid i eficient a les dades.
 
 Aquest enfocament de clau-valor permet un ràpid accés a les dades, especialment útil per a casos dús que requereixen alta velocitat i baixa latència, com emmagatzematge en memòria cau, sessions dusuari, sistemes de missatgeria en temps real, entre altres.
