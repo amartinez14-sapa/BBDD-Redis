@@ -62,6 +62,7 @@ sudo systemctl stop redis
 
 - **Archivo de Configuración:**
 El archivo de configuración de Redis se encuentra en `/etc/redis/redis.conf`.
+![Ejemplo de imagen](https://raw.githubusercontent.com/amartinez14-sapa/BBDD-Redis/main/1(Puerto).png)
 
 - **Datos Físicos:**
 Redis no utiliza almacenamiento en disco; los datos se mantienen en la memoria RAM.
@@ -69,6 +70,7 @@ Redis no utiliza almacenamiento en disco; los datos se mantienen en la memoria R
 ## Cambio de Puerto
 
 El puerto por defecto en el que Redis escucha es `6379`. Para cambiarlo, se modifica el archivo de configuración `/etc/redis/redis.conf`.
+
 
 ## Conexión a la Base de Datos
 
