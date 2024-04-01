@@ -1,25 +1,25 @@
-# Documentación para la instalación de Redis en Linux
+# Documentació per a la instal·lació de Redis a Linux
 
-## Índice
+## Índex
 
-1. [Requisitos](#requisitos)
-2. [Instalación](#instalación)
-3. [Securización de la Instalación](#securización-de-la-instalación)
-4. [Gestión del Servicio](#gestión-del-servicio)
-5. [Configuración y Localización de Archivos](#configuración-y-localización-de-archivos)
-6. [Cambio de Puerto](#cambio-de-puerto)
-7. [Conexión a la Base de Datos](#conexión-a-la-base-de-datos)
-8. [Conclusiones](#conclusiones)
+1. [Requisits](#requisits)
+2. [Instal·lació](#instal·lació)
+3. [Securització de la Instal·lació](#securització-de-la-instal·lació)
+4. [Gestió del Servei](#gestió-del-servei)
+5. [Configuració i Localització d'Arxius](#configuració-i-localització-d'arxius)
+6. [Canvi de Port](#canvi-de-port)
+7. [Connexió a la Base de Dades](#connexió-a-la-base-de-dades)
+8. [Conclusions](#conclusions)
 
-## Requisitos
+## Requisits
 
-Antes de comenzar con la instalación, asegúrese de tener los siguientes paquetes instalados:
+Abans de començar amb la instal·lació, assegureu-vos de tenir els paquets instal·lats següents:
 
 ```bash
 sudo apt install lsb-release curl gpg
 ```
 
-Además, agregaremos la clave de autenticación y el repositorio Redis a nuestro sistema:
+A més, afegirem la clau d'autenticació i el repositori Redis al nostre sistema:
 
 ```bash
 curl -fsSL https://packages.redis.io/gpg | sudo gpg --dearmor -o /usr/share/keyrings/redis-archive-keyring.gpg
@@ -27,59 +27,60 @@ curl -fsSL https://packages.redis.io/gpg | sudo gpg --dearmor -o /usr/share/keyr
 echo "deb [signed-by=/usr/share/keyrings/redis-archive-keyring.gpg] https://packages.redis.io/deb $(lsb_release -cs) main" | sudo tee /etc/apt/sources.list.d/redis.list
 ```
 
-## Instalación
+## Instal·lació
 
-Una vez configurados los repositorios, actualizamos la lista de paquetes disponibles e instalamos Redis:
+Un cop configurats els repositoris, actualitzem la llista de paquets disponibles i instal·lem Redis:
 
 ```bash
 sudo apt-get update
 sudo apt-get install redis
 ```
 
-Con estos pasos, Redis debería estar instalado en su máquina Linux.
+Amb aquests passos, Redis hauria d'estar instal·lat a la màquina Linux.
 
-## Securización de la Instalación
+## Securització de la Instal·lació
 
-Por defecto, Redis bloquea el acceso remoto a la base de datos. Para permitirlo, modificamos el archivo de configuración `/etc/redis/redis.conf` cambiando la línea `bind 127.0.0.1` a `bind 0.0.0.0`. Además, desactivamos el modo protegido en `redis-cli` con el siguiente comando:
+Per defecte, Redis bloqueja l'accés remot a la base de dades. Per permetre-ho, modifiquem el fitxer de configuració `/etc/redis/redis.conf` canviant la línia `bind 127.0.0.1` a `bind 0.0.0.0`. A més, desactivem el mode protegit a `redis-cli` amb la següent ordre:
 
 ```bash
 CONFIG SET protected-mode no
 ```
 
-## Gestión del Servicio
+## Gestió del Servei
 
-Para gestionar el servicio de Redis en el sistema operativo, utilizamos los siguientes comandos:
+Per gestionar el servei de Redis al sistema operatiu, utilitzem les ordres següents:
 
-- **Arrancar el servicio:**
+- **Arrancar el servei:**
+
 ```bash
 sudo systemctl start redis
 ```
 
-- **Verificar el estado del servicio:**
+- **Verificar l'estat del servei:**
+
 ```bash
 sudo systemctl status redis
 ```
 
-- **Apagar el servicio:**
+- **Apagar el servei:**
+
 ```bash
 sudo systemctl stop redis
 ```
 
-## Configuración y Localización de Archivos
+## Configuració i Localització d'Arxius
 
-- **Archivo de Configuración:**
-El archivo de configuración de Redis se encuentra en `/etc/redis/redis.conf`.
-![Ejemplo de imagen](https://raw.githubusercontent.com/amartinez14-sapa/BBDD-Redis/main/1(Puerto).png)
+- **Fitxer de Configuració:**
+  El fitxer de configuració de Redis es troba a `/etc/redis/redis.conf`.
+  ![Exemple d'imatge](https://raw.githubusercontent.com/amartinez14-sapa/BBDD-Redis/main/1(Port).png)
 
-- **Datos Físicos:**
-Redis no utiliza almacenamiento en disco; los datos se mantienen en la memoria RAM.
+- **Dades Físiques:**
+  Redis no utilitza emmagatzematge al disc; les dades es mantenen a la memòria RAM.
 
-## Cambio de Puerto
+## Canvi de Port
 
-El puerto por defecto en el que Redis escucha es `6379`. Para cambiarlo, se modifica el archivo de configuración `/etc/redis/redis.conf`.
+El port per defecte on Redis escolta és `6379`. Per canviar-lo, es modifica el fitxer de configuració `/etc/redis/redis.conf`.
 
+## Connexió a la Base de Dades
 
-## Conexión a la Base de Datos
-
-Para conectarse a la base de datos Redis, puede utilizar herramientas de gestión como Redis Insight o programas que admitan conexiones a Redis.
-
+Per connectar-vos a la base de dades Redis, podeu utilitzar eines de gestió com Redis Insight o programes que admetin connexions a Redis.
