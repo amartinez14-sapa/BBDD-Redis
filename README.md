@@ -10,6 +10,14 @@
 4. [Diferents versions de la Base de Dades REDIS](#diferents-versions-de-la-base-de-dades-redis)
 5. [Instalacio de la Base De Dades REDIS](Instalacion_redis.md)
 
+## Descripcio Base de Dades
+Redis és una base de dades NoSQL, cosa que significa que no segueix el model relacional típic de les bases de dades SQL tradicionals. En lloc d'això, Redis es basa en un model de dades de clau-valor, semblant a com funcionen els objectes JSON. Aquesta estructura de dades simple i flexible permet un accés ràpid i eficient a les dades.
+
+Aquest enfocament de clau-valor permet un ràpid accés a les dades, especialment útil per a casos dús que requereixen alta velocitat i baixa latència, com emmagatzematge en memòria cau, sessions dusuari, sistemes de missatgeria en temps real, entre altres.
+
+En resum, Redis és una base de dades NoSQL que utilitza un model de dades de clau-valor, semblant a com es treballaria amb un objecte JSON, proporcionant flexibilitat i rendiment per a una varietat d'aplicacions i casos d'ús.
+
+
 ## Història
 
 Salvatore Sanfilippo, un desenvolupador italià de 33 anys conegut com "Antirez", va iniciar el projecte Redis el 2009 amb l'objectiu de millorar els sistemes empresarials italians i aportar innovació en el camp de la tecnologia. Inicialment, va crear un prototip anomenat Redis en el llenguatge de programació C i després el va integrar a la comunitat Ruby. A través de la col·laboració i un enfocament en el desenvolupament àgil, aquesta comunitat ha contribuït significativament al creixement i l'adopció de Redis.
