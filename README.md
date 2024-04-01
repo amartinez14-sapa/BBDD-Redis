@@ -12,13 +12,17 @@
 5. [Diferents versions de la Base de Dades REDIS](#diferents-versions-de-la-base-de-dades-redis)
 6. [Instalació de la Base de Dades REDIS](Instalacion_redis.md)
 
-## Descripció de REDIS.
-Redis és una base de dades NoSQL, cosa que significa que no segueix el model relacional típic de les bases de dades SQL tradicionals. En lloc d'això, Redis es basa en un model de dades de clau-valor, semblant a com funcionen els objectes JSON. Aquesta estructura de dades simple i flexible permet un accés ràpid i eficient a les dades.
+# Descripcio Base de Dades
+Redis és una base de dades NoSQL, cosa que significa que no segueix el model relacional típic de les bases de dades SQL tradicionals. En lloc d'això, Redis es basa en un model de dades de clau-valor, semblant a com funcionen els objectes JSON. Cada entrada a Redis s'emmagatzema amb una clau única associada a un valor. Aquesta estructura de dades simple i flexible permet un accés ràpid i eficient a les dades.
 
 Aquest enfocament de clau-valor permet un ràpid accés a les dades, especialment útil per a casos dús que requereixen alta velocitat i baixa latència, com emmagatzematge en memòria cau, sessions dusuari, sistemes de missatgeria en temps real, entre altres.
 
 En resum, Redis és una base de dades NoSQL que utilitza un model de dades de clau-valor, semblant a com es treballaria amb un objecte JSON, proporcionant flexibilitat i rendiment per a una varietat d'aplicacions i casos d'ús.
 
+Redis funciona de la següent Forma: 
+ 1.  Mira la Cache
+ 2.  Si no té la informació la demana a la BBDD principal ya pot ser postgressql,MariaDB o cualsavel altre motor de Base De dades
+ 3.  Mostra la informació que te a la cache
 
 ## Història
 
