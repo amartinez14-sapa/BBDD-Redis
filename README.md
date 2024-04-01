@@ -24,6 +24,8 @@ Redis funciona de la següent Forma:
  2.  Si no té la informació la demana a la BBDD principal ya pot ser postgressql,MariaDB o cualsavel altre motor de Base De dades
  3.  Mostra la informació que te a la cache
 
+    <img src="Diagrama_Redis.png" alt="" width="1200">
+
 ## Història
 
 Salvatore Sanfilippo, un desenvolupador italià de 33 anys conegut com "Antirez", va iniciar el projecte Redis el 2009 amb l'objectiu de millorar els sistemes empresarials italians i aportar innovació en el camp de la tecnologia. Inicialment, va crear un prototip anomenat Redis en el llenguatge de programació C i després el va integrar a la comunitat Ruby. A través de la col·laboració i un enfocament en el desenvolupament àgil, aquesta comunitat ha contribuït significativament al creixement i l'adopció de Redis.
