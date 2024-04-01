@@ -1,6 +1,7 @@
 # Redis: Base de dades en memòria
 
-![](Redis2.png)
+<img src="Redis2.png" alt="" width="500">
+
 
 ## Índice
 1. [Història](#història)
