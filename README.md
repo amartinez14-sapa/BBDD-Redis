@@ -1,14 +1,11 @@
 # Redis: Base de dades en memòria
 
 ## Índice
-1. [Introducción](#introducción)
-2. [Sistemas Gestores de Bases de Datos](#sistemas-gestores-de-bases-de-datos)
-3. [Descripción del SGBD Elegido: Redis](#descripción-del-sgbd-elegido-redis)
-    - [Historia y Soporte](#Història)
-    - [Casos de Uso Recomendados](#casos-de-uso-recomendados)
-    - [Versiones de la Solución](#versiones-de-la-solución)
-    - [Comparación con Otros SGBD](#comparación-con-otros-sgbd)
-4. [Documentación de Instalación](Instalacion_redis.md)
+1. [Història](#història)
+2. [Suport](#suport)
+3. [Casos d'ús](#casos-dús)
+4. [Versions de la solució](#versions-de-la-solució)
+5. [Instalacio de la Base De Dades REDIS](Instalacion_redis.md)
 
 ## Història
 
