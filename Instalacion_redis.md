@@ -1,5 +1,16 @@
 # Documentación para la instalación de Redis en Linux
 
+## Índice
+
+1. [Requisitos](#requisitos)
+2. [Instalación](#instalación)
+3. [Securización de la Instalación](#securización-de-la-instalación)
+4. [Gestión del Servicio](#gestión-del-servicio)
+5. [Configuración y Localización de Archivos](#configuración-y-localización-de-archivos)
+6. [Cambio de Puerto](#cambio-de-puerto)
+7. [Conexión a la Base de Datos](#conexión-a-la-base-de-datos)
+8. [Conclusiones](#conclusiones)
+
 ## Requisitos
 
 Antes de comenzar con la instalación, asegúrese de tener los siguientes paquetes instalados:
