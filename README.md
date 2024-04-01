@@ -1,4 +1,4 @@
-# Instalación y Configuración de Sistemas Gestores de Bases de Datos (SGBD)
+# Redis: Base de dades en memòria
 
 ## Índice
 1. [Introducción](#introducción)
@@ -11,77 +11,48 @@
 4. [Documentación de Instalación](Instalacion_redis.md)
 5. [Entrega](#entrega)
 
-## Introducción
+## Història
 
-El presente proyecto tiene como objetivo analizar uno de los sistemas gestores de bases de datos más utilizados en la actualidad. Se abordarán las tareas necesarias para la instalación y configuración del SGBD elegido, así como la preparación de una presentación para explicar los aspectos más relevantes del mismo.
+Salvatore Sanfilippo, un desenvolupador italià de 33 anys conegut com "Antirez", va iniciar el projecte Redis el 2009 amb l'objectiu de millorar els sistemes empresarials italians i aportar innovació en el camp de la tecnologia. Inicialment, va crear un prototip anomenat Redis en el llenguatge de programació C i després el va integrar a la comunitat Ruby. A través de la col·laboració i un enfocament en el desenvolupament àgil, aquesta comunitat ha contribuït significativament al creixement i l'adopció de Redis.
 
-Este proyecto se puede realizar en grupos de dos o tres alumnos.
+La plataforma de desenvolupament GitHub ha tingut un paper clau en la difusió de Redis, adoptada per empreses com Instagram. Aquesta adopció primerenca ressalta el rendiment i l'escalabilitat de Redis i demostra la seva capacitat per resoldre desafiaments empresarials a escala.
 
-## Sistemas Gestores de Bases de Datos
+Els patrocini de Pivotal Software el 2013 i Redis Labs el 2015 van accelerar encara més el desenvolupament de Redis al proporcionar recursos addicionals i suport tècnic. El llançament de Redis 5.0 el 2018 va marcar un hito amb la introducció de Redis Streams, una estructura de dades sofisticada que amplia la funcionalitat de Redis per a casos d'ús avançats, com el maneig de fluxos de dades en temps real. Finalment, Salvatore Sanfilippo va dimitir com a administrador únic de Redis el 2020 i va ser substituït per Yossi Gottlieb i OranAgra. Aquest canvi en el lideratge del projecte reflexa la maduresa i l'evolució contínua de Redis com a plataforma líder de gestió de dades en memòria.
 
-Se pueden seleccionar entre los siguientes sistemas gestores de bases de datos:
+### Bibliografia
+- Stefano Bernardi, (2011). Entrevista amb Salvatore Sanfilippo creador de Redis. Entrevista amb Salvatore Sanfilippo, creador de Redis, que treballa a Sicília / (eu-startups.com)
+- Wikipedia
+- Redis - Wikipedia, l'enciclopèdia lliure
 
-- In-Memory Databases: Redis, Memcached
-- Spatial Databases: PostGis
-- Time-Series Databases: InfluxDB, Prometheus
-- Graph databases: Neo4j
-- Distributed databases: Apache Cassandra
-- Relational Databases: SqlServer, Oracle
+## Suport
 
-## Descripción del SGBD Elegido: Redis
+- **Redis Labs:** És l'empresa que dóna suport oficialment al desenvolupament del software Redis de codi obert i ofereix diverses alternatives per ajudar i mantenir el funcionament de Redis.
+- **Comunitat:** Brinda suport segons el Codi de Conducta del Pacte del Col·laborador, mitjançant Discord, llista de correu i Stack Overflow.
+- **Amazon Web Services (AWS):** Ofereix suport per configuracions i problemes relacionats amb ElastiCache.
+- **Microsoft Azure:** Proporciona suport tècnic mitjançant Azure Cache.
+- **Google Cloud Platform (GCP):** Ofereix suport tècnic a través de Cloud Memorystore per a configuracions i problemes.
+- **Serveis de Suport de Codi Obert:** Companyies pertanyents com percona i 2ndQuadrant també ofereixen suport tècnic a Redis.
 
-### Historia y Soporte
+## Casos d'ús
 
-Redis fue iniciado por Salvatore Sanfilippo, también conocido como "Antirez", en 2009. Su desarrollo ha sido respaldado por la comunidad de código abierto, así como por empresas como Redis Labs. Para obtener más información sobre la historia de Redis, consulte la [entrevista con Salvatore Sanfilippo](https://eu-startups.com/interview-with-redis-creator-salvatore-sanfilippo-who-works-in-sicily/).
+Redis és una base de dades ideal per a casos d'ús que requereixin alta velocitat, cau en memòria, emmagatzematge de sessions, missatgeria en espera i anàlisi en temps real.
 
-### Casos de Uso Recomendados
+### Exemples:
 
-Redis es ideal para casos de uso que requieran alta velocidad, caché en memoria, almacenamiento de sesiones, mensajes en espera y análisis en tiempo real. Algunos ejemplos de estos casos de uso son la segmentación en tiempo real en redes sociales, almacenamiento de datos de sesiones en aplicaciones móviles y gestión de inventarios en el comercio electrónico.
+- Segmentació en temps real en xarxes socials.
+- Emmagatzematge de dades de sessions en aplicacions mòbils.
+- Gestió d'inventaris en el comerç electrònic.
+- Sistemes de missatgeria en temps real en aplicacions de xat, entre d'altres.
 
-### Versiones de la Solución
+## Versions de la solució
 
-- Community Edition: Gratuita y de código abierto, adecuada para proyectos pequeños o medianos.
-- Enterprise Edition: Versión comercial con funciones avanzadas y soporte.
-- Redis Cloud: Servicios gestionados en la nube para escalabilidad y mantenimiento automatizado.
+- **Community Edition:** És gratuïta i de codi obert, adequada per a projectes petits o mitjans amb funcionalitats bàsiques.
+- **Enterprise Edition:** Inclou versió comercial amb funcions avançades i suport. També totes les funcions de gestió, seguretat millorada, escalabilitat empresarial i suport premium.
+- **Redis Cloud:** Serveis gestionats a la núvol per a escalabilitat i manteniment automatitzat.
 
-### Comparación con Otros SGBD
+Redis Cloud és utilitzat per diverses plataformes a la núvol, per exemple: Amazon ElastiCache, Microsoft Azure Cache for Redis, Google Cloud Memorystore.
 
-Redis destaca por su rendimiento en tiempo real, modelo de datos en memoria, diversidad de estructuras de datos, escalabilidad y disponibilidad.
+## Comparativa amb altres bases de dades
 
-## Documentación de Instalación
+En comparació amb altres bases de dades de la indústria, Redis destaca pel seu rendiment en temps real, model de dades en memòria, diversitat d'estructures de dades, escalabilitat i disponibilitat.
 
-### Requisitos
-
-- Paquetes necesarios: `lsb-release`, `curl`, `gpg`
-- Obtener la clave de firma de paquetes de Redis
-- Añadir el repositorio de Redis
-- Actualizar las listas de paquetes
-- Instalar Redis
-
-### Securización de la Instalación
-
-Por defecto, Redis bloquea el acceso remoto a la base de datos. Para modificar esta configuración, se deben seguir los siguientes pasos.
-
-### Instrucciones de Arranque, Verificación de Estado y Apagado del Servicio
-
-- Arrancar el servicio: `systemctl start redis`
-- Verificar el estado del servicio: `systemctl status redis`
-- Apagar el servicio: `systemctl stop redis`
-
-### Ubicación y Nombre del Archivo de Configuración
-
-El archivo de configuración de Redis se encuentra en `/etc/redis/redis.conf`.
-
-### Puertos de Escucha del Servicio
-
-Por defecto, Redis escucha en el puerto 6379. Para cambiar este puerto, se deben realizar modificaciones en el archivo de configuración.
-
-### Conexión a la Base de Datos
-
-Para conectarse a Redis, se puede utilizar una herramienta de gestión de bases de datos o un programa que admita Redis.
-
-## Entrega
-
-- Identificación de los miembros del grupo.
-- Documentación de instalación completa.
-- Capturas de imágenes pertinentes y referencias bibliográficas.
