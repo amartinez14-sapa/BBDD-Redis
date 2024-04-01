@@ -9,7 +9,6 @@
     - [Versiones de la Solución](#versiones-de-la-solución)
     - [Comparación con Otros SGBD](#comparación-con-otros-sgbd)
 4. [Documentación de Instalación](Instalacion_redis.md)
-5. [Entrega](#entrega)
 
 ## Història
 
