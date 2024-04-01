@@ -4,7 +4,7 @@
 1. [Història](#història)
 2. [Suport](#suport)
 3. [Casos d'ús](#casos-dús)
-4. [Diferents versions de la Base de Dades REDIS](#Diferents_versions_de_la_Base_de_Dades_REDIS)
+4. [Diferents versions de la Base de Dades REDIS](#Diferents versions de la Base de Dades REDIS)
 5. [Instalacio de la Base De Dades REDIS](Instalacion_redis.md)
 
 ## Història
