@@ -1,9 +1,5 @@
 # Documentación para la instalación de Redis en Linux
 
-## Introducción
-
-Este documento proporciona una guía paso a paso para instalar y configurar Redis, un sistema gestor de bases de datos NoSQL, en un entorno Linux. Se detallarán los requisitos previos, el proceso de instalación, la seguridad y la gestión básica del servicio.
-
 ## Requisitos
 
 Antes de comenzar con la instalación, asegúrese de tener los siguientes paquetes instalados:
