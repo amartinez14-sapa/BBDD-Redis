@@ -1,5 +1,22 @@
 # Redis: Base de dades en memòria
 
+## Índice
+1. [Introducción](#introducción)
+2. [Sistemas Gestores de Bases de Datos](#sistemas-gestores-de-bases-de-datos)
+3. [Descripción del SGBD Elegido: Redis](#descripción-del-sgbd-elegido-redis)
+    - [Historia y Soporte](#historia-y-soporte)
+    - [Casos de Uso Recomendados](#casos-de-uso-recomendados)
+    - [Versiones de la Solución](#versiones-de-la-solución)
+    - [Comparación con Otros SGBD](#comparación-con-otros-sgbd)
+4. [Instalacion_redis.md](#documentación-de-instalación)
+    - [Requisitos](#requisitos)
+    - [Securización de la Instalación](#securización-de-la-instalación)
+    - [Instrucciones de Arranque, Verificación de Estado y Apagado del Servicio](#instrucciones-de-arranque-verificación-de-estado-y-apagado-del-servicio)
+    - [Ubicación y Nombre del Archivo de Configuración](#ubicación-y-nombre-del-archivo-de-configuración)
+    - [Puertos de Escucha del Servicio](#puertos-de-escucha-del-servicio)
+    - [Conexión a la Base de Datos](#conexión-a-la-base-de-datos)
+5. [Entrega](#entrega)
+
 ## Història
 
 Salvatore Sanfilippo, un desenvolupador italià de 33 anys conegut com "Antirez", va iniciar el projecte Redis el 2009 amb l'objectiu de millorar els sistemes empresarials italians i aportar innovació en el camp de la tecnologia. Inicialment, va crear un prototip anomenat Redis en el llenguatge de programació C i després el va integrar a la comunitat Ruby. A través de la col·laboració i un enfocament en el desenvolupament àgil, aquesta comunitat ha contribuït significativament al creixement i l'adopció de Redis.
