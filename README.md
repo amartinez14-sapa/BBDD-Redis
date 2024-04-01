@@ -4,7 +4,7 @@
 1. [Introducción](#introducción)
 2. [Sistemas Gestores de Bases de Datos](#sistemas-gestores-de-bases-de-datos)
 3. [Descripción del SGBD Elegido: Redis](#descripción-del-sgbd-elegido-redis)
-    - [Historia y Soporte](#historia-y-soporte)
+    - [Historia y Soporte](#Història)
     - [Casos de Uso Recomendados](#casos-de-uso-recomendados)
     - [Versiones de la Solución](#versiones-de-la-solución)
     - [Comparación con Otros SGBD](#comparación-con-otros-sgbd)
