@@ -83,6 +83,3 @@ El puerto por defecto en el que Redis escucha es `6379`. Para cambiarlo, se modi
 
 Para conectarse a la base de datos Redis, puede utilizar herramientas de gestión como Redis Insight o programas que admitan conexiones a Redis.
 
-## Conclusiones
-
-En este documento, se ha proporcionado una guía detallada para la instalación, configuración y gestión básica de Redis en un entorno Linux. Con esta información, los técnicos informáticos pueden implementar y administrar eficazmente esta base de datos NoSQL en sus sistemas.
