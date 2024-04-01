@@ -8,7 +8,7 @@
     - [Casos de Uso Recomendados](#casos-de-uso-recomendados)
     - [Versiones de la Solución](#versiones-de-la-solución)
     - [Comparación con Otros SGBD](#comparación-con-otros-sgbd)
-4. [Documentación de Instalación](#documentación-de-instalación)
+4. [Documentación de Instalación](Instalacion_redis.md)
 
 ## Història
 
