@@ -4,7 +4,7 @@
 1. [Història](#història)
 2. [Suport](#suport)
 3. [Casos d'ús](#casos-dús)
-4. [Versions de la solució](#versions-de-la-solució)
+4. [Diferents versions de la Base de Dades REDIS](#Diferents_versions_de_la_Base_de_Dades_REDIS)
 5. [Instalacio de la Base De Dades REDIS](Instalacion_redis.md)
 
 ## Història
@@ -40,7 +40,7 @@ Redis és una base de dades ideal per a casos d'ús que requereixin alta velocit
 - Gestió d'inventaris en el comerç electrònic.
 - Sistemes de missatgeria en temps real en aplicacions de xat, entre d'altres.
 
-## Versions de la solució
+## Diferents versions de la Base de Dades REDIS
 
 - **Community Edition:** És gratuïta i de codi obert, adequada per a projectes petits o mitjans amb funcionalitats bàsiques.
 - **Enterprise Edition:** Inclou versió comercial amb funcions avançades i suport. També totes les funcions de gestió, seguretat millorada, escalabilitat empresarial i suport premium.
