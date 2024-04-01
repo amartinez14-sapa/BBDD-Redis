@@ -3,7 +3,7 @@
 ## Índex
 
 1. [Requisits](#requisits)
-2. [Instal·lació](#instal·lació)
+2. [Instal·lació](https://github.com/amartinez14-sapa/BBDD-Redis/blob/main/Instalacion_redis.md#installaci%C3%B3)
 3. [Securització de la Instal·lació](#securització-de-la-instal·lació)
 4. [Gestió del Servei](#gestió-del-servei)
 5. [Configuració i Localització d'Arxius](#configuració-i-localització-d'arxius)
