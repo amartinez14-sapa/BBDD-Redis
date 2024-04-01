@@ -3,8 +3,8 @@
 ## Índex
 
 1. [Requisits](#requisits)
-2. [Instal·lació](https://github.com/amartinez14-sapa/BBDD-Redis/blob/main/Instalacion_redis.md#installaci%C3%B3)
-3. [Securització de la Instal·lació](#https://github.com/amartinez14-sapa/BBDD-Redis/blob/main/Instalacion_redis.md#securitzaci%C3%B3-de-la-installaci%C3%B3)
+2. [Instal·lació](#installaci%C3%B3)
+3. [Securització de la Instal·lació](https://github.com/amartinez14-sapa/BBDD-Redis/blob/main/Instalacion_redis.md#securitzaci%C3%B3-de-la-installaci%C3%B3)
 4. [Gestió del Servei](#gestió-del-servei)
 5. [Configuració i Localització d'Arxius](#configuració-i-localització-d'arxius)
 6. [Canvi de Port](#canvi-de-port)
