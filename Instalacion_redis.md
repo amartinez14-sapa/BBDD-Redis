@@ -6,7 +6,7 @@
 2. [Instal·lació](#installaci%C3%B3)
 3. [Securització de la Instal·lació](#securitzaci%C3%B3-de-la-installaci%C3%B3)
 4. [Gestió del Servei](#gestió-del-servei)
-5. [Configuració i Localització d'Arxius](https://github.com/amartinez14-sapa/BBDD-Redis/blob/main/Instalacion_redis.md#configuraci%C3%B3-i-localitzaci%C3%B3-darxius)
+5. [Configuració i Localització d'Arxius](#configuraci%C3%B3-i-localitzaci%C3%B3-darxius)
 6. [Canvi de Port](#canvi-de-port)
 7. [Connexió a la Base de Dades](#connexió-a-la-base-de-dades)
 
@@ -31,19 +31,25 @@ echo "deb [signed-by=/usr/share/keyrings/redis-archive-keyring.gpg] https://pack
 Un cop configurats els repositoris, actualitzem la llista de paquets disponibles i instal·lem Redis:
 
 ```bash
-sudo apt-get update
-sudo apt-get install redis
+sudo apt update
+sudo apt install redis
 ```
 
 Amb aquests passos, Redis hauria d'estar instal·lat a la màquina Linux.
 
 ## Securització de la Instal·lació
 
-Per defecte, Redis bloqueja l'accés remot a la base de dades. Per permetre-ho, modifiquem el fitxer de configuració `/etc/redis/redis.conf` canviant la línia `bind 127.0.0.1` a `bind 0.0.0.0`. A més, desactivem el mode protegit a `redis-cli` amb la següent ordre:
-
+Per defecte, Redis bloqueja l'accés remot a la base de dades. Per permetre-ho, modifiquem el fitxer de configuració `/etc/redis/redis.conf` canviant la línia `bind 127.0.0.1` a `bind 0.0.0.0`. A més, desactivem el mode protegit a `redis-cli` amb les següents ordres:
+  
+  1. 
+```bash
+redis-cli
+```
+  2.
 ```bash
 CONFIG SET protected-mode no
 ```
+![Securitzacio](Securitzacio.png)
 
 ## Gestió del Servei
 
@@ -79,6 +85,7 @@ sudo systemctl stop redis
 ## Canvi de Port
 
 El port per defecte on Redis escolta és `6379`. Per canviar-lo, es modifica el fitxer de configuració `/etc/redis/redis.conf`.
+  ![Canvi de Port](1(Puerto).png)
 
 
 ## Connexió a la Base de Dades
