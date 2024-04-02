@@ -1,6 +1,6 @@
 ## Demostració
 
-Hem creat un petit codi en Python que compta quant temps tarda a fer una SELECT directament a PostgreSQL i després, fent diferents operacions, ho guarda a la base de dades Redis. Com es pot veure en aquesta captura i en el següent gràfic, només fent el SELECT en PostgreSQL tarda 3.3808646202087402 segons, mentre que utilitzant la caché, només tarda 0.0044786930084228516 segons. És una autèntica passada.
+Hem creat un petit codi en Python que comptabilitza quant temps es triga a fer una SELECT directament a PostgreSQL. Després, fent diferents operacions, ho guarda a la base de dades Redis. I torna a fer la mateixa consulta mostrant el resultat nou. Com es pot veure en aquesta captura i en el següent gràfic, la velocitat que te Redis és una autèntica passada. Fent el SELECT en PostgreSQL triga 3.3808646202087402 segons, mentre que utilitzant REDIS, Triga 0.0044786930084228516 segons. 
 
 ## Codi utilitzat
 ```python
