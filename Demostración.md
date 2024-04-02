@@ -1,7 +1,9 @@
 ## Demostració
 
-Hem creat un petit codi en Python que comptabilitza quant temps es triga a fer una SELECT directament a PostgreSQL. Després, fent diferents operacions, ho guarda a la base de dades Redis. I torna a fer la mateixa consulta mostrant el resultat nou. Com es pot veure en aquesta captura i en el següent gràfic, la velocitat que te Redis és una autèntica passada. Fent el SELECT en PostgreSQL triga 3.3808646202087402 segons, mentre que utilitzant REDIS, Triga 0.0044786930084228516 segons. 
-
+Hem creat un petit codi en Python que comptabilitza quant temps es triga a fer una SELECT directament a PostgreSQL. Després, fent diferents operacions, ho guarda a la base de dades Redis. I torna a fer la mateixa consulta mostrant el resultat nou. Com es pot veure en aquesta captura i en el següent gràfic, la velocitat que te Redis és una autèntica passada. Fent el SELECT en PostgreSQL triga 2.588432788848877, mentre que utilitzant REDIS, Triga 0.003871917724609375 segons.
+                                                                                    
+  ![Grafic](Comprovación_Conexion_BBDD_redis-insight.png)
+  ![Temps](Comprovación_Conexion_BBDD_redis-insight.png)
 ## Codi utilitzat
 ```python
 import psycopg2
