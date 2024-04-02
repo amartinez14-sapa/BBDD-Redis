@@ -71,7 +71,7 @@ sudo systemctl stop redis
 
 - **Fitxer de Configuració:**
   El fitxer de configuració de Redis es troba a `/etc/redis/redis.conf`.
-  ![Exemple d'imatge](https://raw.githubusercontent.com/amartinez14-sapa/BBDD-Redis/main/1(Port).png)
+  ![Archivo_Configuracion](Archivo_Configuracion.png)
 
 - **Dades Físiques:**
   Redis no utilitza emmagatzematge al disc; les dades es mantenen a la memòria RAM.
@@ -79,6 +79,7 @@ sudo systemctl stop redis
 ## Canvi de Port
 
 El port per defecte on Redis escolta és `6379`. Per canviar-lo, es modifica el fitxer de configuració `/etc/redis/redis.conf`.
+
 
 ## Connexió a la Base de Dades
 
