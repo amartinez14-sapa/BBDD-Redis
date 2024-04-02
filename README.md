@@ -78,5 +78,7 @@ Un altre avantatge clau de Redis és el seu suport per a operacions atòmiques, 
 
 En resum, Redis ofereix una combinació única de velocitat, versatilitat, escalabilitat i fiabilitat que el distingeix com una millor opció  en comparació amb altres bases de dades, especialment per a aplicacions que valoren el rendiment i la capacitat d'escalar eficientment.
 
-#### Membres del Grup
-Antonio Encarnación Montero, Manuel Antonio Alvarez Lopez,Alex Martinez Rubio
+### Membres del Grup
+-Antonio Encarnación Montero
+-Manuel Antonio Alvarez Lopez
+-Alex Martinez Rubio
