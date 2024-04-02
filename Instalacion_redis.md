@@ -77,7 +77,7 @@ sudo systemctl stop redis
 
 - **Fitxer de Configuració:**
   El fitxer de configuració de Redis es troba a `/etc/redis/redis.conf`.
-  ![Archivo_Configuracion](Archivo_Configuracion.png)
+  ![Archivo_Configuracion](1Archivo_Configuracion.png)
 
 - **Dades Físiques:**
   Redis no utilitza emmagatzematge al disc; les dades es mantenen a la memòria RAM.
