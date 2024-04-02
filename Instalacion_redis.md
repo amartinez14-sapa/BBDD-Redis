@@ -49,7 +49,7 @@ redis-cli
 ```bash
 CONFIG SET protected-mode no
 ```
-![Securitzacio](Securitzacio.png)
+![Securitzacio](1Securitzacio.png)
 
 ## Gestió del Servei
 
