@@ -45,9 +45,10 @@ plt.bar(operations, times)
 plt.xlabel('Operaciones')
 plt.ylabel('Tiempo (segundos)')
 plt.title('Redis I Postgres')
-plt.xticks(rotation=45)
-plt.show()
-
-
 ```
+
+### Membres del Grup
+- Antonio Encarnación Montero.
+- Manuel Antonio Alvarez Lopez.
+- Alex Martinez Rubio.
 
