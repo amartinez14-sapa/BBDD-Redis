@@ -21,7 +21,7 @@ En resum, Redis és una base de dades NoSQL que utilitza un model de dades de cl
 
 Redis funciona de la següent Forma: 
  1.  Mira la Cache
- 2.  Si no té la informació la demana a la BBDD principal, pot ser postgressql,MariaDB o qualsavol altre motor de Base De dades
+ 2.  Si no té la informació la demana a la BBDD principal, pot ser postgressql, MariaDB o qualsavol altre motor de Base De dades
  3.  Mostra la informació que té a la caché
 <img src="https://github.com/amartinez14-sapa/BBDD-Redis/blob/main/Diagrama_Redis.png?raw=true" alt="" width="500">
 
@@ -74,7 +74,7 @@ En termes d'escalabilitat, Redis sobresurt en poder distribuir-se en clústers p
 
 Redis també destaca com a solució d'emmagatzematge en caché. En reduir la necessitat d'accedir constantment a bases de dades més lentes o sistemes externs, millora significativament el rendiment de les aplicacions.
 
-Una altre avantatge clau de Redis és el seu suport per a operacions atòmiques, garantint la coherència i seguretat de les dades en entorns distribuïts. Aquesta característica és especialment important en aplicacions on es requereixen operacions segures i consistents.
+Un altre avantatge clau de Redis és el seu suport per a operacions atòmiques, garantint la coherència i seguretat de les dades en entorns distribuïts. Aquesta característica és especialment important en aplicacions on es requereixen operacions segures i consistents.
 
 En resum, Redis ofereix una combinació única de velocitat, versatilitat, escalabilitat i fiabilitat que el distingeix com una millor opció  en comparació amb altres bases de dades, especialment per a aplicacions que valoren el rendiment i la capacitat d'escalar eficientment.
 
