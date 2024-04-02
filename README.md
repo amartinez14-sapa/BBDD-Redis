@@ -1,6 +1,6 @@
 # Redis: Base de dades en memòria
 
-<img src="Redis2.png" alt="" width="1200">
+<img src="1Redis2.png" alt="" width="1200">
 
 
 ## Índex
