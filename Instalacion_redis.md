@@ -92,3 +92,8 @@ El port per defecte on Redis escolta és `6379`. Per canviar-lo, es modifica el 
 
 Per connectar-vos a la base de dades Redis, podeu fer servir eines de gestió com Redis Insight o programes que admetin connexions a Redis.
   ![Canvi de Port](1Comprovación_Conexion_BBDD_redis-insight.png)
+
+### Membres del Grup
+- Antonio Encarnación Montero.
+- Manuel Antonio Alvarez Lopez.
+- Alex Martinez Rubio.
