@@ -23,6 +23,8 @@ Redis funciona de la següent Forma:
  1.  Mira la Cache
  2.  Si no té la informació la demana a la BBDD principal, pot ser postgressql, MariaDB o qualsavol altre motor de Base De dades
  3.  Mostra la informació que té a la caché
+
+    
 <img src="https://github.com/amartinez14-sapa/BBDD-Redis/blob/main/Img/1Diagrama_Redis.png?raw=true" alt="" width="500">
 
 ## Història
