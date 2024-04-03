@@ -9,6 +9,8 @@
 5. [Configuració i Localització d'Arxius](#configuraci%C3%B3-i-localitzaci%C3%B3-darxius)
 6. [Canvi de Port](#canvi-de-port)
 7. [Connexió a la Base de Dades](#connexió-a-la-base-de-dades)
+8. [Demostracion](Demostració.md)
+9. [Atras](readme.md)
 
 ## Requisits
 
