@@ -12,7 +12,7 @@
 5. [Diferents versions de la Base de Dades REDIS](#diferents-versions-de-la-base-de-dades-redis)
 6. [Comparativa](#comparativa-amb-altres-bases-de-dades)
 7. [Instalació de la Base de Dades REDIS](Instalacion_redis.md)
-8. [Demostración](https://github.com/amartinez14-sapa/BBDD-Redis/blob/main/Demostraci%C3%B3.md)
+8. [Demostración](Demostraci%C3%B3.md)
 
 # Descripció de Redis
 Redis és una base de dades NoSQL, per tant, no segueix el model relacional típic de les bases de dades. En lloc d'això, Redis es basa en un model de dades de clau-valor, semblant a com funcionen els objectes JSON. Cada entrada a Redis s'emmagatzema amb una clau única associada a un valor. Aquesta estructura de dades simple i flexible permet un accés ràpid i eficient a les dades.
