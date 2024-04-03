@@ -10,7 +10,7 @@
 6. [Canvi de Port](#canvi-de-port)
 7. [Connexió a la Base de Dades](#connexió-a-la-base-de-dades)
 8. [Demostracion](Demostració.md)
-9. [Atras](readme.md)
+9. [Atras](README.md)
 
 ## Requisits
 
