@@ -51,7 +51,7 @@ redis-cli
 ```bash
 CONFIG SET protected-mode no
 ```
-![Securitzacio](1Securitzacio.png)
+![Securitzacio](Img/1Securitzacio.png)
 
 ## Gestió del Servei
 
@@ -79,7 +79,7 @@ sudo systemctl stop redis
 
 - **Fitxer de Configuració:**
   El fitxer de configuració de Redis es troba a `/etc/redis/redis.conf`.
-  ![Archivo_Configuracion](1Archivo_Configuracion.png)
+  ![Archivo_Configuracion](Img/1Archivo_Configuracion.png)
 
 - **Dades Físiques:**
   Redis no utilitza emmagatzematge al disc; les dades es mantenen a la memòria RAM.
@@ -87,13 +87,13 @@ sudo systemctl stop redis
 ## Canvi de Port
 
 El port per defecte on Redis escolta és `6379`. Per canviar-lo, es modifica el fitxer de configuració `/etc/redis/redis.conf`.
-  ![Canvi de Port](1(Puerto).png)
+  ![Canvi de Port](Img/1(Puerto).png)
 
 
 ## Connexió a la Base de Dades
 
 Per connectar-vos a la base de dades Redis, podeu fer servir eines de gestió com Redis Insight o programes que admetin connexions a Redis.
-  ![Canvi de Port](1Comprovación_Conexion_BBDD_redis-insight.png)
+  ![Canvi de Port](Img/1Comprovación_Conexion_BBDD_redis-insight.png)
 
 ### Membres del Grup
 - Antonio Encarnación Montero.
